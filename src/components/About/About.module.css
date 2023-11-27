@@ -9,17 +9,18 @@
 }
 
 .textColumn {
-  flex-basis: 50%;
-  background-color: var(--color-light);
+  flex-basis: 60%;
+  background-color: rgba(245, 245, 245, 0.8);
   padding: 6rem;
   min-height: 25rem;
+  text-align: left;
 }
 
 .imageColumn {
-  flex-basis: 50%;
-  margin-left: -3rem;
+  flex-basis: calc(40% + 4rem);
+  margin-left: -4rem;
 }
 
 .imageColumn img {
-  height: 30rem;
+  width: 100%;
 }

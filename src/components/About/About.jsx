@@ -14,14 +14,20 @@ function About() {
             Lorem ipsum <span className="color-red">dolor sit amet.</span>
           </h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet libero
-            ipsam error adipisci sed molestias maiores hic porro possimus,
-            cupiditate pariatur? In aut necessitatibus, adipisci, fugiat, minima
-            explicabo ex quaerat vel magnam non impedit eos nulla officia a
-            culpa velit iste officiis dicta accusamus porro doloribus inventore
-            sequi. Autem, voluptatibus nemo error enim totam doloribus obcaecati
-            incidunt. Quam, praesentium in? Ipsum similique quam molestias odit
-            sunt repellendus praesentium id deserunt.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+            libero reprehenderit ad vitae animi sit voluptatum nulla eveniet
+            pariatur aspernatur fugiat provident at minus magnam suscipit
+            dolorum asperiores, id ducimus delectus molestiae corporis maiores
+            laborum labore. Inventore eius quod nihil saepe. Voluptas voluptates
+            amet, optio consequuntur, harum sequi, voluptatum atque quo
+            dignissimos aut deserunt placeat inventore nam. Velit, omnis. Nulla
+            illum recusandae natus reiciendis ipsa quae optio facilis sed
+            dolorum, perspiciatis fugit vel voluptatibus mollitia inventore.
+            Corporis, excepturi! Ex id excepturi sed perspiciatis facere harum
+            eius fugiat dicta neque voluptates. Tempore vitae molestiae fuga
+            soluta sit saepe nulla dolorum, modi aut numquam assumenda quaerat
+            velit recusandae culpa repellendus pariatur perferendis doloremque
+            dolores id ut? Laboriosam, quos est? Eius, repudiandae dolor!
           </p>
         </div>
         <div className={styles.imageColumn}>

@@ -1,5 +1,6 @@
 .btn {
   font-family: inherit;
+  font-size: 1.6rem;
   border: none;
   cursor: pointer;
   background-color: transparent;
@@ -14,6 +15,6 @@
 }
 
 .primary:hover {
-  background-color: var(--color-red--1);
+  background-color: var(--color-red--2);
   color: var(--color-light);
 }

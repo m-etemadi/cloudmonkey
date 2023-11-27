@@ -1,0 +1,13 @@
+.servicesContent {
+  display: flex;
+  align-items: center;
+}
+
+.imageColumn {
+  flex-basis: 35%;
+}
+
+.textColumn {
+  padding-left: 5rem;
+  flex-basis: 65%;
+}
