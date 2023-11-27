@@ -1,0 +1,19 @@
+.btn {
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  transition: all 0.25s;
+}
+
+.primary {
+  border-radius: 0.3rem;
+  background-color: var(--color-light);
+  color: var(--color-dark--1);
+  padding: 1.2rem 2rem;
+}
+
+.primary:hover {
+  background-color: var(--color-red--1);
+  color: var(--color-light);
+}

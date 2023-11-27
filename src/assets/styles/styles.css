@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+:root {
+  --font-primary: 'Open Sans', sans-serif;
+  --font-secondary: 'Roboto', sans-serif;
+
+  --max-width: 120rem;
+
+  --color-red--1: rgb(129, 4, 4);
+  --color-red--2: rgb(185, 34, 34);
+  --color-red--3: rgb(164, 77, 76);
+  --color-dark--1: rgb(0, 0, 0);
+  --color-dark--2: rgb(38, 38, 38);
+  --color-light: rgb(245, 245, 245);
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+textarea:focus,
+input:focus,
+button:focus,
+a:focus {
+  outline: none;
+}
+a {
+  text-decoration: none;
+}
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+html {
+  font-family: var(--font-primary);
+  font-size: 62.5%;
+}
+html,
+body {
+  height: 100%;
+  min-height: 100%;
+}
+body {
+  position: relative;
+  font-family: inherit;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-weight: 300;
+  color: var(--color-dark--2);
+  text-rendering: optimizeSpeed;
+  overflow-x: hidden;
+}
+
+.py-8 {
+  padding: 8rem;
+}
+
+.myb-5 {
+  margin-bottom: 5rem;
+}
+
+.color-light {
+  color: var(--color-light);
+}
+
+.color-red {
+  color: var(--color-red--1);
+}
+
+.container {
+  max-width: var(--max-width);
+  padding: 0 1.5rem;
+  margin: 0 auto;
+}
+
+.heading {
+  text-align: center;
+  line-height: 1.3;
+  padding-bottom: 5rem;
+}
+
+.heading-primary {
+  font-size: 5.6rem;
+}
+
+.heading-secondary {
+  font-size: 4rem;
+}
+
+.heading-tertiary {
+  font-size: 3.2rem;
+}

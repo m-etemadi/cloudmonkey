@@ -1,15 +1,29 @@
+import logo from '../../../assets/images/logo.png';
+
+import styles from './Navbar.module.css';
+
 function Navbar() {
   return (
-    <nav className="navbar container">
-      <ul>
-        <li>Home</li>
-        <li>About Us</li>
-      </ul>
-      <h1>Cloud Monkey</h1>
-      <ul>
-        <li>Services</li>
-        <li>Contact Us</li>
-      </ul>
+    <nav className={styles.navbar}>
+      <div className={`${styles.container} container`}>
+        <ul>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#about-us">About Us</a>
+          </li>
+        </ul>
+        <img src={logo} alt="Company Logo" />
+        <ul>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#contact-us">Contact Us</a>
+          </li>
+        </ul>
+      </div>
     </nav>
   );
 }

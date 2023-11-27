@@ -1,0 +1,28 @@
+.navbar {
+  position: fixed;
+  left: 0;
+  top: 3rem;
+  width: 100%;
+  z-index: 10;
+
+  padding: 0 1.5rem;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  box-shadow: 0 0.5rem 2rem 0 rgba(0, 0, 0, 0.75);
+  border-radius: 2rem;
+}
+
+.navbar ul {
+  display: flex;
+  column-gap: 5rem;
+}
+
+.navbar a {
+  font-size: 1.8rem;
+  color: var(--color-light);
+}

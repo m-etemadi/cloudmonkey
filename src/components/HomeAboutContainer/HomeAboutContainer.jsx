@@ -1,6 +1,8 @@
+import styles from './HomeAboutContainer.module.css';
+
 function HomeAboutContainer({ children }) {
   return (
-    <div className="home-about-container">
+    <div className={styles.homeAboutContainer}>
       <div className="container">{children}</div>
     </div>
   );

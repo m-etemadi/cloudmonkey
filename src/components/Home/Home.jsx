@@ -1,16 +1,17 @@
+import Button from '../common/Button/Button';
+
 function Home() {
   return (
-    <section className="home">
+    <section className="home myb-5">
       <header>
-        <h1 className="heading heading-primary">
-          Your <span className="red">Business Title</span>
+        <h1 className="heading heading-primary color-light">
+          Your <span className="color-red">Business Title</span>
           <br />
           Goes Here
         </h1>
       </header>
-      <a href="#" title="Learn More" className="btn btn-primary">
-        Learn More
-      </a>
+
+      <Button type="primary">Learn More</Button>
     </section>
   );
 }

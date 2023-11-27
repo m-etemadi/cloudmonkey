@@ -1,6 +1,6 @@
 function Services({ children }) {
   return (
-    <section className="services">
+    <section className="services py-8">
       <header>
         <h2 className="heading heading-secondary">Why Choose Us?</h2>
       </header>

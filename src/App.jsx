@@ -1,5 +1,5 @@
 import Header from './components/common/Header';
-import HomeAboutContainer from './components/HomeAboutContainer';
+import HomeAboutContainer from './components/HomeAboutContainer/HomeAboutContainer';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Services from './components/Services/Services';

@@ -1,0 +1,25 @@
+.aboutContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutContent * {
+  border-radius: 1rem;
+}
+
+.textColumn {
+  flex-basis: 50%;
+  background-color: var(--color-light);
+  padding: 6rem;
+  min-height: 25rem;
+}
+
+.imageColumn {
+  flex-basis: 50%;
+  margin-left: -3rem;
+}
+
+.imageColumn img {
+  height: 30rem;
+}
