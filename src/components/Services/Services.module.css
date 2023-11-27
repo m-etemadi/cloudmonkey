@@ -1,6 +1,7 @@
 .servicesContent {
   display: flex;
   align-items: center;
+  margin-bottom: 8rem;
 }
 
 .imageColumn {
@@ -10,4 +11,24 @@
 .textColumn {
   padding-left: 5rem;
   flex-basis: 65%;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.cards .card {
+  width: 32%;
+  padding: 3rem;
+  border-radius: 2.2rem;
+  background-color: var(--color-light--1);
+  text-align: justify;
+}
+
+.cards .card h3 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }

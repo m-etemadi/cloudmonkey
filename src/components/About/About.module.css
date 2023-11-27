@@ -10,7 +10,7 @@
 
 .textColumn {
   flex-basis: 60%;
-  background-color: rgba(245, 245, 245, 0.8);
+  background-color: var(--color-light--2);
   padding: 6rem;
   min-height: 25rem;
   text-align: left;

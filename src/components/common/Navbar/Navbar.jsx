@@ -14,7 +14,10 @@ function Navbar() {
             <a href="#about-us">About Us</a>
           </li>
         </ul>
-        <img src={logo} alt="Company Logo" />
+        <div className={styles.logo}>
+          <img src={logo} alt="Company Logo" />
+        </div>
+
         <ul>
           <li>
             <a href="#services">Services</a>

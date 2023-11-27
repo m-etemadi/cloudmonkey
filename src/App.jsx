@@ -4,7 +4,7 @@ import Home from './components/Home/Home';
 import About from './components/About/About';
 import Services from './components/Services/Services';
 import ServicesContent from './components/Services/ServicesContent';
-import Cards from './components/Services/Cards/Cards';
+import Cards from './components/Services/Cards';
 import Contact from './components/Contact/Contact';
 import Form from './components/Contact/Form';
 import Map from './components/Contact/Map';

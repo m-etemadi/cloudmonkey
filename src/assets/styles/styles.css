@@ -10,7 +10,8 @@
   --color-red--3: rgb(164, 77, 76);
   --color-dark--1: rgb(0, 0, 0);
   --color-dark--2: rgb(38, 38, 38);
-  --color-light: rgb(245, 245, 245);
+  --color-light--1: rgb(255, 255, 255);
+  --color-light--2: rgb(245, 245, 245);
 }
 
 *,
@@ -54,6 +55,7 @@ body {
   font-size: 1.8rem;
   line-height: 1.5;
   font-weight: 300;
+  background-color: var(--color-light--2);
   color: var(--color-dark--2);
   text-rendering: optimizeSpeed;
   overflow-x: hidden;
@@ -64,7 +66,7 @@ body {
 }
 
 .color-light {
-  color: var(--color-light);
+  color: var(--color-light--2);
 }
 
 .color-red {

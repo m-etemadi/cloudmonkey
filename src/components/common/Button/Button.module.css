@@ -1,20 +1,18 @@
 .btn {
-  font-family: inherit;
-  font-size: 1.6rem;
-  border: none;
+  all: unset;
   cursor: pointer;
-  background-color: transparent;
+  font-size: 1.6rem;
   transition: all 0.25s;
 }
 
 .primary {
   border-radius: 0.3rem;
-  background-color: var(--color-light);
+  background-color: var(--color-light--2);
   color: var(--color-dark--1);
   padding: 1.2rem 2rem;
 }
 
 .primary:hover {
   background-color: var(--color-red--2);
-  color: var(--color-light);
+  color: var(--color-light--2);
 }
