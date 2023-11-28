@@ -32,8 +32,7 @@
 }
 
 .cardFront h3 {
-  text-align: center;
-  color: var(--color-red--1);
+  font-size: 2.6rem;
 }
 
 .cardBack {

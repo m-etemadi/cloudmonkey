@@ -6,7 +6,7 @@ function Card({ card }) {
   return (
     <div className={styles.card}>
       <div className={`${styles.cardSide} ${styles.cardFront}`}>
-        <h3>
+        <h3 className="heading">
           <span className="color-dark">{titleBlack}</span>
           <br />
           <span className="color-red">{titleRed}</span>
