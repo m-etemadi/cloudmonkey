@@ -25,16 +25,15 @@ const cardsData = [
   },
 ];
 
+import Card from './Card/Card';
+
 import styles from './Services.module.css';
 
 function Cards() {
   return (
     <div className={styles.cards}>
       {cardsData.map((card, i) => (
-        <div className={styles.card} key={i}>
-          <h3>{card.title}</h3>
-          <p>{card.text}</p>
-        </div>
+        <Card key={i} card={card} />
       ))}
     </div>
   );

@@ -1,11 +1,16 @@
 .homeAboutContainer {
-  background: linear-gradient(to bottom, rgba(38, 38, 38, 0.9), #262626e6),
-    url('/src/assets/images/bg-1.jpg') no-repeat fixed center center/cover;
+  background: linear-gradient(
+      0deg,
+      rgba(101, 104, 107, 0.35),
+      rgba(101, 104, 107, 0.35)
+    ),
+    url('/src/assets/images/bg-1.jpg'), #d9d9d9 50% / cover no-repeat;
+  background-attachment: fixed;
 
   padding: 15rem 0 8rem 0;
   text-align: center;
 
   @supports (clip-path: polygon(0 0, 0 0, 0 0, 0 0)) {
-    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 98%, 0 100%);
   }
 }
