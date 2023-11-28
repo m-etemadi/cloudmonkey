@@ -1,9 +1,9 @@
 .navbar {
-  padding: 0 1.5rem;
   position: fixed;
   top: 3rem;
   width: 100%;
   z-index: 10;
+  padding: 0 1.5rem;
 }
 
 .navbar .container {
@@ -11,11 +11,11 @@
   justify-content: space-evenly;
   align-items: center;
 
-  box-shadow: 0 0.5rem 2rem 0 rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 2rem 0 rgba(38, 38, 38, 0.75);
   border-radius: 2rem;
-
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+  transition: all, 0.3s;
 }
 
 .navbar .logo {
@@ -40,4 +40,8 @@
 .navbar a {
   font-size: 1.6rem;
   color: var(--color-light--2);
+}
+
+.scrolledDown .container {
+  background-color: rgba(38, 38, 38, 0.85);
 }

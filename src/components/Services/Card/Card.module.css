@@ -14,13 +14,26 @@
   width: 100%;
   height: 40rem;
   padding: 3rem;
-  border-radius: 1rem;
+  border-radius: 0.7rem;
   overflow: hidden;
   background-color: var(--color-light--1);
-  -webkit-backface-visibility: hidden;
-  box-shadow: 0 1.5rem 4rem rgb(38, 38, 38, 0.25);
+  box-shadow: 0 0 2rem 0 rgba(38, 38, 38, 0.2);
   transition: all 0.8s ease;
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.cardFront {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 3rem;
+}
+
+.cardFront h3 {
+  text-align: center;
+  color: var(--color-red--1);
 }
 
 .cardBack {

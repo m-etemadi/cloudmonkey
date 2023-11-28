@@ -71,6 +71,10 @@ body {
   color: var(--color-light--2);
 }
 
+.color-dark {
+  color: var(--color-dark--2);
+}
+
 .color-red {
   color: var(--color-red--1);
 }

@@ -1,10 +1,29 @@
+import { useEffect, useState } from 'react';
+
 import logo from '../../../assets/images/logo.png';
 
 import styles from './Navbar.module.css';
 
 function Navbar() {
+  const [scrolling, setScrolling] = useState(false);
+
+  function handleScroll() {
+    window.scrollY > 80 ? setScrolling(true) : setScrolling(false);
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <nav className={styles.navbar}>
+    <nav
+      className={`${styles.navbar} ${
+        scrolling ? `${styles.scrolledDown}` : ''
+      }`}
+    >
       <div className={`${styles.container} container`}>
         <ul>
           <li>
