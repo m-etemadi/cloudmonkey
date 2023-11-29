@@ -1,11 +1,14 @@
 import styles from './Card.module.css';
 
 function Card({ card }) {
-  const { titleBlack, titleRed, text } = card;
+  const { icon, titleBlack, titleRed, text } = card;
 
   return (
     <div className={styles.card}>
       <div className={`${styles.cardSide} ${styles.cardFront}`}>
+        <div className={styles.cardIcon}>
+          <img src={icon} alt={`${titleBlack} ${titleRed}`} />
+        </div>
         <h3 className="heading">
           <span className="color-dark">{titleBlack}</span>
           <br />
