@@ -7,14 +7,14 @@
 
   --max-width: 120rem;
 
-  --color-red--1: rgb(129, 4, 4);
-  --color-red--2: rgb(185, 34, 34);
-  --color-red--3: rgb(164, 77, 76);
-  --color-dark--1: rgb(0, 0, 0);
-  --color-dark--2: rgb(38, 38, 38);
-  --color-light--1: rgb(255, 255, 255);
-  --color-light--2: rgb(245, 245, 245);
-  --color-light--3: rgb(219, 219, 219);
+  --color-red--1: 129, 4, 4;
+  --color-red--2: 185, 34, 34;
+  --color-red--3: 164, 77, 76;
+  --color-dark--1: 101, 104, 107;
+  --color-dark--2: 38, 38, 38;
+  --color-light--1: 255, 255, 255;
+  --color-light--2: 245, 245, 245;
+  --color-light--3: 219, 219, 219;
 }
 
 *,
@@ -56,10 +56,10 @@ body {
   position: relative;
   font-family: inherit;
   font-size: 1.8rem;
-  line-height: 1.5;
   font-weight: 300;
-  background-color: var(--color-light--2);
-  color: var(--color-dark--2);
+  line-height: 1.5;
+  background-color: rgb(var(--color-light--2));
+  color: rgb(var(--color-dark--2));
   text-rendering: optimizeSpeed;
   overflow-x: hidden;
 }
@@ -69,15 +69,15 @@ body {
 }
 
 .color-light {
-  color: var(--color-light--2);
+  color: rgb(var(--color-light--2));
 }
 
 .color-dark {
-  color: var(--color-dark--2);
+  color: rgb(var(--color-dark--2));
 }
 
 .color-red {
-  color: var(--color-red--1);
+  color: rgb(var(--color-red--1));
 }
 
 .container {

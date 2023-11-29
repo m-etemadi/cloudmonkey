@@ -1,8 +1,8 @@
 .contact {
   background: linear-gradient(
       0deg,
-      rgba(38, 38, 38, 0.9),
-      rgba(38, 38, 38, 0.9)
+      rgba(var(--color-dark--2), 0.9),
+      rgba(var(--color-dark--2), 0.9)
     ),
     url('/src/assets/images/contact-bg.jpg'), no-repeat center center/cover;
   background-attachment: fixed;
@@ -10,8 +10,6 @@
 
 .contactContent {
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
 }
 
 .contactContent > * {
