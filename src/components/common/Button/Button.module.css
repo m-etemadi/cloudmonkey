@@ -8,7 +8,7 @@
 .primary {
   border-radius: 0.3rem;
   background-color: rgb(var(--color-light--2));
-  color: rgb(var(--color-dark--1));
+  color: rgb(var(--color-dark--2));
   padding: 1.2rem 2rem;
 }
 

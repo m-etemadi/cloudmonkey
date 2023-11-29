@@ -1,8 +1,8 @@
 .contact {
   background: linear-gradient(
       0deg,
-      rgba(var(--color-dark--2), 0.9),
-      rgba(var(--color-dark--2), 0.9)
+      rgba(var(--color-dark--3), 0.65),
+      rgba(var(--color-dark--3), 0.65)
     ),
     url('/src/assets/images/contact-bg.jpg'), no-repeat center center/cover;
   background-attachment: fixed;
@@ -24,6 +24,7 @@
 .contactForm textarea {
   font-family: inherit;
   font-size: inherit;
+  border: none;
   width: 100%;
   padding: 1.5rem;
   margin-bottom: 1rem;

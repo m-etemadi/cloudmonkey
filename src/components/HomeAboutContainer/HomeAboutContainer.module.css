@@ -1,11 +1,10 @@
 .homeAboutContainer {
   background: linear-gradient(
       0deg,
-      rgba(var(--color-dark--1), 0.35),
-      rgba(var(--color-dark--1), 0.35)
+      rgba(var(--color-dark--1), 0.65),
+      rgba(var(--color-dark--1), 0.65)
     ),
-    url('/src/assets/images/bg-1.jpg'), no-repeat center center/cover;
-  background-attachment: fixed;
+    url('/src/assets/images/top-bg.jpg'), no-repeat center center/cover;
 
   padding: 15rem 0 8rem 0;
   text-align: center;
