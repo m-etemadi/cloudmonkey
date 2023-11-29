@@ -18,8 +18,26 @@
   flex-basis: 50%;
 }
 
+.contactForm {
+  padding-right: 3rem;
+}
+
+.contactForm input,
+.contactForm textarea {
+  font-family: inherit;
+  font-size: inherit;
+  width: 100%;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.contactForm textarea {
+  height: 20rem;
+  resize: none;
+}
+
 .googleMap iframe {
   border: 0;
   width: 100%;
-  height: 45rem;
+  height: 40rem;
 }

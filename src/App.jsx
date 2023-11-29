@@ -8,7 +8,7 @@ import Cards from './components/Services/Cards';
 import Contact from './components/Contact/Contact';
 import Form from './components/Contact/Form';
 import Map from './components/Contact/Map';
-import Footer from './components/Footer';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (

@@ -1,6 +1,10 @@
+import styles from './Contact.module.css';
+
+import Button from '../common/Button/Button';
+
 function Form() {
   return (
-    <div className="contact-form">
+    <div className={styles.contactForm}>
       <form>
         <div>
           <input type="text" placeholder="Full Name" />
@@ -15,7 +19,7 @@ function Form() {
           <textarea rows="4" cols="50" placeholder="Your Message..."></textarea>
         </div>
 
-        <button className="btn btn-primary">Send</button>
+        <Button type="primary">Send</Button>
       </form>
     </div>
   );
