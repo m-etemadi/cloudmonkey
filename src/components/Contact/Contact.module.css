@@ -6,6 +6,9 @@
     ),
     url('/src/assets/images/contact-bg.jpg'), no-repeat center center/cover;
   background-attachment: fixed;
+
+  font-weight: 400;
+  letter-spacing: -1px;
 }
 
 .contactContent {
@@ -49,6 +52,23 @@
   column-gap: 1.5rem;
 }
 
-.addressDetails p {
-  font-weight: 400;
+.contactInfo {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5rem;
+}
+
+.contactInfo .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1rem;
+}
+
+.contactInfo a {
+  color: inherit;
+  border-left: 2px solid rgb(var(--color-dark--2));
+  padding-left: 1rem;
 }
