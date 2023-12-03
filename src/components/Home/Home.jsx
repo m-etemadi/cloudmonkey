@@ -6,8 +6,8 @@ import styles from './Home.module.css';
 
 function Home() {
   return (
-    <Element className="home">
-      <section className={styles.home}>
+    <section>
+      <Element className={`${styles.home} home`}>
         <header>
           <h1 className="heading heading-primary color-light">
             Your <span className="color-red">business title</span>
@@ -17,8 +17,8 @@ function Home() {
         </header>
 
         <Button type="primary">Learn More</Button>
-      </section>
-    </Element>
+      </Element>
+    </section>
   );
 }
 
