@@ -1,9 +1,12 @@
+import { Element } from 'react-scroll';
 import Navbar from './Navbar/Navbar';
 
 function Header() {
   return (
     <header>
-      <Navbar />
+      <Element className="home">
+        <Navbar />
+      </Element>
     </header>
   );
 }
