@@ -1,3 +1,5 @@
+import image from '../../assets/images/icons/location-icon.png';
+
 import styles from './Contact.module.css';
 
 function Map() {
@@ -8,6 +10,12 @@ function Map() {
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
       ></iframe>
+      <div className={styles.addressDetails}>
+        <div className="icon">
+          <img src={image} alt="Cloud Monkey address" loading="lazy" />
+        </div>
+        <p>1004/122 Arthur Street, North Sydney 2060, NSW</p>
+      </div>
     </div>
   );
 }

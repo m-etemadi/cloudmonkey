@@ -6,14 +6,16 @@ function Card({ card }) {
   return (
     <div className={styles.card}>
       <div className={`${styles.cardSide} ${styles.cardFront}`}>
-        <div className={styles.cardIcon}>
+        <figure className={styles.cardIcon}>
           <img src={icon} alt={`${titleBlack} ${titleRed}`} />
-        </div>
-        <h3 className="heading">
-          <span className="color-dark">{titleBlack}</span>
-          <br />
-          <span className="color-red">{titleRed}</span>
-        </h3>
+        </figure>
+        <figcaption>
+          <h3 className="heading">
+            <span className="color-dark">{titleBlack}</span>
+            <br />
+            <span className="color-red">{titleRed}</span>
+          </h3>
+        </figcaption>
       </div>
       <div className={`${styles.cardSide} ${styles.cardBack}`}>{text}</div>
     </div>
