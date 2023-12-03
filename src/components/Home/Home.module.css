@@ -1,5 +1,5 @@
 .home {
-  height: calc(100dvh - 15rem);
+  height: 100dvh;
 
   display: flex;
   align-items: center;

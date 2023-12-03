@@ -41,6 +41,10 @@
   color: rgb(var(--color-light--2));
 }
 
+.navbar a:global(.active) {
+  color: rgb(var(--color-red--2));
+}
+
 .scrolledDown .container {
   background-color: rgba(var(--color-dark--2), 0.85);
 }
