@@ -1,25 +1,50 @@
 .aboutContent {
   display: flex;
   align-items: center;
+  flex-direction: column-reverse;
 }
 
 .aboutContent * {
   border-radius: 1rem;
 }
 
-.textColumn {
-  flex-basis: 60%;
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 6rem;
-  min-height: 25rem;
-  text-align: left;
-}
-
 .imageColumn {
-  flex-basis: calc(40% + 4rem);
-  margin-left: -4rem;
+  margin-bottom: -4rem;
+  z-index: 1;
 }
 
 .imageColumn img {
-  width: 100%;
+  max-width: 80%;
+  display: inline;
+}
+
+.textColumn {
+  background-color: rgba(var(--color-light--1), 0.8);
+  padding: 6rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .textColumn {
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .aboutContent {
+    flex-direction: row;
+  }
+
+  .textColumn {
+    flex-basis: 60%;
+    min-height: 25rem;
+  }
+
+  .imageColumn {
+    flex-basis: calc(40% + 4rem);
+    margin-left: -4rem;
+  }
+
+  .imageColumn img {
+    max-width: 100%;
+  }
 }

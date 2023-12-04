@@ -17,7 +17,9 @@ function Card({ card }) {
           </h3>
         </figcaption>
       </div>
-      <div className={`${styles.cardSide} ${styles.cardBack}`}>{text}</div>
+      <div className={`${styles.cardSide} ${styles.cardBack}`}>
+        <p>{text}</p>
+      </div>
     </div>
   );
 }

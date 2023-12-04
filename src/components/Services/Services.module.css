@@ -1,16 +1,19 @@
 .servicesContent {
-  display: flex;
-  align-items: center;
   margin-bottom: 8rem;
 }
 
 .imageColumn {
-  flex-basis: 35%;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.imageColumn img {
+  max-width: 70%;
+  display: inline;
 }
 
 .textColumn {
-  padding-left: 5rem;
-  flex-basis: 65%;
+  text-align: center;
 }
 
 .cards {
@@ -18,4 +21,26 @@
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 3rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .servicesContent {
+    display: flex;
+    align-items: center;
+  }
+
+  .imageColumn {
+    flex-basis: 35%;
+    margin-bottom: 0;
+  }
+
+  .imageColumn img {
+    max-width: 100%;
+  }
+
+  .textColumn {
+    padding-left: 5rem;
+    flex-basis: 65%;
+    text-align: left;
+  }
 }

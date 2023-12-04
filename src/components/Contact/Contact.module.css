@@ -4,15 +4,13 @@
       rgba(var(--color-dark--3), 0.8),
       rgba(var(--color-dark--3), 0.8)
     ),
-    url('/src/assets/images/contact-bg.jpg'), no-repeat center center/cover;
-  background-attachment: fixed;
+    url('/src/assets/images/contact-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 
   font-weight: 400;
   letter-spacing: -1px;
-}
-
-.contactContent {
-  display: flex;
 }
 
 .contactContent > * {
@@ -20,7 +18,7 @@
 }
 
 .contactForm {
-  padding-right: 2rem;
+  margin-bottom: 2rem;
 }
 
 .contactForm input,
@@ -53,11 +51,12 @@
 }
 
 .contactInfo {
+  padding: 0 1.5rem;
   margin-top: 5rem;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  column-gap: 5rem;
+  align-items: flex-start;
+  flex-direction: column;
+  row-gap: 2rem;
 }
 
 .contactInfo .item {
@@ -71,4 +70,30 @@
   color: inherit;
   border-left: 2px solid rgb(var(--color-dark--2));
   padding-left: 1rem;
+}
+
+@media only screen and (min-width: 640px) {
+  .contactInfo {
+    justify-content: center;
+    flex-direction: row;
+    row-gap: 0;
+    column-gap: 5rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .contactContent {
+    display: flex;
+  }
+
+  .contactForm {
+    padding-right: 2rem;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .contact {
+    background-attachment: fixed;
+  }
 }

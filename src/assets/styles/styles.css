@@ -74,7 +74,8 @@ body {
 }
 
 .py-8 {
-  padding: 8rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 
 .color-light {
@@ -112,9 +113,9 @@ body {
 }
 
 .heading-primary {
-  font-size: 8rem;
-  font-weight: 800;
   padding-bottom: 5rem;
+  font-size: 6rem;
+  font-weight: 800;
 }
 
 .heading-secondary {
@@ -125,4 +126,10 @@ body {
 .heading-tertiary {
   font-size: 3.2rem;
   padding-bottom: 3rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .heading-primary {
+    font-size: 8rem;
+  }
 }

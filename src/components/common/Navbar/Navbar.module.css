@@ -1,4 +1,5 @@
 .navbar {
+  display: none;
   position: fixed;
   top: 3rem;
   width: 100%;
@@ -47,4 +48,10 @@
 
 .scrolledDown .container {
   background-color: rgba(var(--color-dark--2), 0.85);
+}
+
+@media only screen and (min-width: 1024px) {
+  .navbar {
+    display: block;
+  }
 }
