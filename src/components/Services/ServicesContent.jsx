@@ -10,11 +10,10 @@ function ServicesContent() {
       </div>
       <div className={styles.textColumn}>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-          molestias facere assumenda dolore illum temporibus placeat. Debitis
-          accusantium eaque, iste autem aspernatur numquam temporibus tempore.
-          Esse tempora labore maiores reprehenderit impedit saepe dolores in
-          eaque. Cumque facere magnam in doloremque.
+          By focusing on the following key areas, Cloud Monkey is dedicated to
+          providing a comprehensive and user-friendly solution for businesses
+          operating a mobile workforce, ensuring that you have the tools and
+          support you need to succeed.
         </p>
       </div>
     </div>

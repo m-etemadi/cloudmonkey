@@ -1,4 +1,4 @@
-import { Element, Link } from 'react-scroll';
+import { Element } from 'react-scroll';
 
 import Button from '../common/Button/Button';
 
@@ -8,13 +8,9 @@ function Home() {
   return (
     <section>
       <Element className={`${styles.home} home`}>
-        <header>
-          <h1 className="heading heading-primary color-light">
-            Your <span className="color-red">business title</span>
-            <br />
-            goes here
-          </h1>
-        </header>
+        <h1 className="heading heading-primary color-light">
+          Leading <span className="color-red">Transport & Space</span> Solutions
+        </h1>
 
         <Button isLink={true} type="primary" to="about">
           Learn More

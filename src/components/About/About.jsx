@@ -9,29 +9,24 @@ function About() {
     <section>
       <Element className="about">
         <header>
-          <h2 className="heading heading-secondary color-light">Who We Are?</h2>
+          <h2 className="heading heading-secondary color-light">
+            What is Monocura?
+          </h2>
         </header>
         <div className={styles.aboutContent}>
           <div className={styles.textColumn}>
             <h3 className="heading heading-tertiary">
-              Lorem ipsum <span className="color-red">dolor sit amet.</span>
+              Monocura, <span className="color-red">Your Single Solution</span>
             </h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-              libero reprehenderit ad vitae animi sit voluptatum nulla eveniet
-              pariatur aspernatur fugiat provident at minus magnam suscipit
-              dolorum asperiores, id ducimus delectus molestiae corporis maiores
-              laborum labore. Inventore eius quod nihil saepe. Voluptas
-              voluptates amet, optio consequuntur, harum sequi, voluptatum atque
-              quo dignissimos aut deserunt placeat inventore nam. Velit, omnis.
-              Nulla illum recusandae natus reiciendis ipsa quae optio facilis
-              sed dolorum, perspiciatis fugit vel voluptatibus mollitia
-              inventore. Corporis, excepturi! Ex id excepturi sed perspiciatis
-              facere harum eius fugiat dicta neque voluptates. Tempore vitae
-              molestiae fuga soluta sit saepe nulla dolorum, modi aut numquam
-              assumenda quaerat velit recusandae culpa repellendus pariatur
-              perferendis doloremque dolores id ut? Laboriosam, quos est? Eius,
-              repudiandae dolor!
+              Monocura, Latin for &ldquo;single solution&rdquo; is a
+              comprehensive suite designed to empower businesses managing a
+              mobile workforce. Our software products seamlessly integrate,
+              offering solutions for booking, dispatch, pricing, billing, and
+              Customer Relations Management (CRM). Monocura streamlines
+              operations, boosts productivity, and simplifies the scheduling
+              process, all while being a white-label application tailored to
+              your brand.
             </p>
           </div>
           <div className={styles.imageColumn}>
