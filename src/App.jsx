@@ -1,4 +1,4 @@
-import Header from './components/common/Header';
+import Header from './components/Header/Header';
 import HomeAboutContainer from './components/HomeAboutContainer/HomeAboutContainer';
 import Home from './components/Home/Home';
 import About from './components/About/About';

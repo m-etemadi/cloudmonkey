@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 
 import { Link } from 'react-scroll';
 
-import logo from '../../../assets/images/logo.png';
+import logo from '../../assets/images/logo.png';
 
 import styles from './Navbar.module.css';
 

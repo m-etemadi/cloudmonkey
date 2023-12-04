@@ -6,7 +6,7 @@
   z-index: 10;
   width: 50%;
   min-height: 100dvh;
-  background-color: rgba(var(--color-dark--2), 0.85);
+  background-color: rgba(var(--color-dark--2), 0.95);
 }
 
 .mobileNav a {
@@ -17,4 +17,10 @@
 
 .mobileNav a:global(.active) {
   color: rgb(var(--color-red--2));
+}
+
+@media only screen and (min-width: 1024px) {
+  .mobileNav {
+    display: none;
+  }
 }
