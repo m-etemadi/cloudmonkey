@@ -1,0 +1,20 @@
+.mobileNav {
+  padding: 3rem 2rem 0 2rem;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 10;
+  width: 50%;
+  min-height: 100dvh;
+  background-color: rgba(var(--color-dark--2), 0.85);
+}
+
+.mobileNav a {
+  color: rgb(var(--color-light--1));
+  display: block;
+  padding: 1.5rem;
+}
+
+.mobileNav a:global(.active) {
+  color: rgb(var(--color-red--2));
+}
