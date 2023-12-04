@@ -7,10 +7,15 @@ import styles from './Header.module.css';
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
+
+  function handleToggle() {
+    setIsOpen(o => !o);
+  }
+
   return (
     <header className={styles.header}>
-      <Hamburger setIsOpen={setIsOpen} />
-      {isOpen && <MobileNav />}
+      {!isOpen && <Hamburger handleToggle={handleToggle} />}
+      <MobileNav handleToggle={handleToggle} isOpen={isOpen} />
       <Navbar />
     </header>
   );

@@ -99,6 +99,14 @@ body {
   aspect-ratio: 1;
 }
 
+.mobile-nav--btn {
+  width: 4.8rem;
+  height: 4.8rem;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  cursor: pointer;
+}
+
 .container {
   max-width: var(--max-width);
   padding: 0 1.5rem;
