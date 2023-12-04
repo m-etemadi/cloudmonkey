@@ -1,4 +1,4 @@
-import { Element } from 'react-scroll';
+import { Element, Link } from 'react-scroll';
 
 import Button from '../common/Button/Button';
 
@@ -16,7 +16,9 @@ function Home() {
           </h1>
         </header>
 
-        <Button type="primary">Learn More</Button>
+        <Button isLink={true} type="primary" to="about">
+          Learn More
+        </Button>
       </Element>
     </section>
   );
