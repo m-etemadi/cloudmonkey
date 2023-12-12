@@ -8,8 +8,10 @@
 }
 
 .imageColumn img {
-  max-width: 70%;
+  max-width: 80%;
   display: inline;
+  border-radius: 1rem;
+  box-shadow: 0 0 6rem 1.2rem rgba(var(--color-dark--2), 0.4);
 }
 
 .textColumn {
@@ -30,7 +32,7 @@
   }
 
   .imageColumn {
-    flex-basis: 35%;
+    flex-basis: 45%;
     margin-bottom: 0;
   }
 
@@ -39,8 +41,9 @@
   }
 
   .textColumn {
+    font-size: 2rem;
     padding-left: 5rem;
-    flex-basis: 65%;
+    flex-basis: 55%;
     text-align: left;
   }
 }

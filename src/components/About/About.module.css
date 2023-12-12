@@ -37,14 +37,17 @@
   .textColumn {
     flex-basis: 60%;
     min-height: 45rem;
+    font-size: 2rem;
   }
 
   .imageColumn {
     flex-basis: calc(40% + 4rem);
     margin-left: -4rem;
+    margin-bottom: 0;
   }
 
   .imageColumn img {
+    display: block;
     max-width: 100%;
   }
 }

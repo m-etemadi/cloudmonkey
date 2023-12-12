@@ -36,6 +36,11 @@
   resize: none;
 }
 
+.contactForm .message {
+  margin-top: 2rem;
+  font-weight: 500;
+}
+
 .googleMap iframe {
   border: 0;
   width: 100%;
